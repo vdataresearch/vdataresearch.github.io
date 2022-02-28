@@ -22,4 +22,4 @@
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
 
 <svelte:component this={content} />
-<p>{@html meta.subtitle}</p>
+<p>{meta.subtitle}</p>
