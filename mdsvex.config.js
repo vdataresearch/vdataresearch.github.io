@@ -1,9 +1,10 @@
 import relativeImages from 'mdsvex-relative-images';
+import remarkUnwrapImages from 'remark-unwrap-images';
 
 export default {
 	extensions: ['.svx', '.md'],
 	smartypants: {
 		dashes: 'oldschool'
 	},
-	remarkPlugins: [relativeImages]
+	remarkPlugins: [relativeImages, remarkUnwrapImages]
 };
