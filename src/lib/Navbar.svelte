@@ -22,7 +22,7 @@
 				{#each navItems as navItem}
 					<li class="nav-item">
 						<a
-							class="nav-link Manrope-Variable fw-bold"
+							class="nav-link Manrope-Variable fw-bold h4"
 							class:active={$page.url.pathname.startsWith(navItem.path)}
 							href={navItem.path}>{navItem.label}</a
 						>
