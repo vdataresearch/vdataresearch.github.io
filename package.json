@@ -5,7 +5,7 @@
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
-		"deploy": "gh-pages -d build",
+		"deploy": "gh-pages -t -d build",
 		"package": "svelte-kit package",
 		"preview": "svelte-kit preview",
 		"lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
