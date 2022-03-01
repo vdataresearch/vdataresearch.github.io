@@ -17,14 +17,25 @@
 </script>
 
 <script>
+	import CardTeam from '$lib/CardTeam.svelte';
 	export let teamList;
 </script>
 
-<h1>team</h1>
-{#each teamList as group}
-	<h4>{group[0]}</h4>
-	{#each group[1] as person}
-		<h5>{person.name} {person.surname}</h5>
-		<svelte:component this={person.component} />
+<div class="container">
+	<div class="row">
+		<div class="col-12"><h1 class="display-1 fw-bold my-3">Team</h1></div>
+	</div>
+	{#each teamList as group}
+		<div class="row border-top border-secondary py-3">
+			<div class="col-4">
+				<h2>{group[0]}</h2>
+			</div>
+
+			{#each group[1] as person}
+				<div class="col-4">
+					<CardTeam {person} />
+				</div>
+			{/each}
+		</div>
 	{/each}
-{/each}
+</div>
