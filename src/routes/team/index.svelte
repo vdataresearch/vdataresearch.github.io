@@ -1,4 +1,5 @@
 <script context="module">
+	import { groups } from 'd3-array';
 	export const prerender = true;
 	const list = Object.entries(import.meta.globEager('/team/**/*.md')).map(([filepath, post]) => {
 		return {
@@ -9,7 +10,7 @@
 	export async function load({ params, fetch }) {
 		return {
 			props: {
-				teamList: list
+				teamList: groups(list, (d) => d.affiliation)
 			}
 		};
 	}
@@ -20,7 +21,10 @@
 </script>
 
 <h1>team</h1>
-{#each teamList as person}
-	<h5>{person.name} {person.surname}</h5>
-	<svelte:component this={person.component} />
+{#each teamList as group}
+	<h4>{group[0]}</h4>
+	{#each group[1] as person}
+		<h5>{person.name} {person.surname}</h5>
+		<svelte:component this={person.component} />
+	{/each}
 {/each}

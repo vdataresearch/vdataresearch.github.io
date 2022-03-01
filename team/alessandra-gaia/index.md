@@ -6,4 +6,4 @@ surname: Gaia
 link: https://google.com
 ---
 
-![picture](./profile.jpg)
+![{name} {surname}](./profile.jpg)

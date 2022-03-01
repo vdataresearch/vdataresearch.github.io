@@ -7,12 +7,30 @@
 		};
 	});
 
+	const wplist = Object.entries(import.meta.globEager('/work-packages/**/*.md')).map(
+		([filepath, post]) => {
+			return {
+				...post.metadata,
+				slug: filepath
+					.replace(/(\/index)?\.md/, '')
+					.split('/')
+					.pop()
+			};
+		}
+	);
+
 	export async function load({ params, fetch }) {
 		return {
 			props: {
 				outputsList: list,
 				filterType: ['all', ...list.map((d) => d.type)],
-				filterWp: ['all', ...new Set(list.map((d) => d.wp).flat())]
+				filterWp: [
+					{ value: 'all', label: 'all' },
+					[...new Set(list.map((d) => d.wp).flat())].map((d) => {
+						const item = wplist.find((w) => w.slug === d);
+						return { value: d, label: item.title };
+					})
+				].flat()
 			}
 		};
 	}
@@ -24,7 +42,7 @@
 	export let filterWp;
 
 	let type = filterType[0];
-	let wp = filterWp[0];
+	let wp = filterWp[0].value;
 
 	console.log(filterType, filterWp);
 	$: filteredList = outputsList.filter(
@@ -62,9 +80,9 @@
 					class="form-check-input"
 					name="options-wp"
 					id={`option-wp-${i}`}
-					value={filter}
+					value={filter.value}
 				/>
-				<label class="form-check-label" for={`option-wp-${i}`}>{filter}</label>
+				<label class="form-check-label" for={`option-wp-${i}`}>{filter.label}</label>
 			</div>
 		{/each}
 	</div>
