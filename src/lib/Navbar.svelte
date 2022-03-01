@@ -11,7 +11,7 @@
 	];
 </script>
 
-<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark-vd">
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
 	<div class="container-fluid">
 		<a class="navbar-brand" href="/">
 			<img src="/logo.png" alt="" height="24" class="d-inline-block align-text-top" />
@@ -22,7 +22,7 @@
 				{#each navItems as navItem}
 					<li class="nav-item">
 						<a
-							class="nav-link"
+							class="nav-link Manrope-Variable fw-bold"
 							class:active={$page.url.pathname.startsWith(navItem.path)}
 							href={navItem.path}>{navItem.label}</a
 						>

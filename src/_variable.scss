@@ -1,3 +1,6 @@
+$primary: #4ecb71;
+$secondary: #323232;
+$dark: #000;
 @import '../node_modules/bootstrap/scss/functions';
 @import '../node_modules/bootstrap/scss/variables';
 @import '../node_modules/bootstrap/scss/mixins';
@@ -7,16 +10,16 @@
 // 	'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji',
 // 	'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 
-$dark-vd: #000;
-$custom-colors: (
-	'primary-vd': #4ecb71,
-	'dark-vd': $dark-vd
-);
+// $dark-vd: #000;
 
-$body-bg: $dark-vd;
+// $custom-colors: (
+// 	'dark-vd': $dark-vd
+// );
+
+$body-bg: $dark;
 $body-color: $white;
 
-$theme-colors: map-merge($theme-colors, $custom-colors);
+// $theme-colors: map-merge($theme-colors, $custom-colors);
 
 $font-family-sans-serif: 'Recia-Variable', system-ui, -apple-system, 'Segoe UI', Roboto,
 	'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji',

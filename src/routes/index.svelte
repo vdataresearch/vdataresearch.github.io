@@ -15,15 +15,24 @@
 <div class="container">
 	<div class="row">
 		<div class="col-12">
-			<p>{metadata.subtitle}</p>
-			<Index />
+			<p class="h4 text-primary w-50">{metadata.subtitle}</p>
+			<div class="intro-text">
+				<Index />
+			</div>
 		</div>
 	</div>
 	<div class="row">
 		{#each cards as card}
-			<div class="col-4">
+			<div class="col-4 mb-5 mt-3">
 				<CardHome {...card} />
 			</div>
 		{/each}
 	</div>
 </div>
+
+<style>
+	.intro-text {
+		font-size: 2.25rem;
+		text-indent: 6rem;
+	}
+</style>
