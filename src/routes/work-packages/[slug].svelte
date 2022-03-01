@@ -67,8 +67,6 @@
 	export let team;
 	export let outputs;
 	export let goals;
-
-	console.log(team, outputs);
 </script>
 
 <h1>{title}</h1>
