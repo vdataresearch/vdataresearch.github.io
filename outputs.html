@@ -7,13 +7,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="content-security-policy" content="">
 	<link rel="stylesheet" href="/_app/assets/vendor-28d9e71a.css">
-	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-17e2f8c3.css">
-	<link rel="modulepreload" href="/_app/start-cb1b9eea.js">
+	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-7f1c6a1b.css">
+	<link rel="stylesheet" href="/_app/assets/CardHome.svelte_svelte_type_style_lang-fc5760b7.css">
+	<link rel="stylesheet" href="/_app/assets/CardTeam.svelte_svelte_type_style_lang-7877f4b8.css">
+	<link rel="stylesheet" href="/_app/assets/CardOutput-2ec0bfc8.css">
+	<link rel="modulepreload" href="/_app/start-4ccf727c.js">
 	<link rel="modulepreload" href="/_app/chunks/vendor-bbec9de4.js">
 	<link rel="modulepreload" href="/_app/pages/__layout.svelte-f93e16ce.js">
-	<link rel="modulepreload" href="/_app/pages/outputs/index.svelte-6aa6579f.js">
-	<link rel="modulepreload" href="/_app/chunks/index-5e7e6c9e.js">
-	<link rel="modulepreload" href="/_app/chunks/index-ec943967.js">
+	<link rel="modulepreload" href="/_app/pages/outputs/index.svelte-f74062f1.js">
+	<link rel="modulepreload" href="/_app/chunks/index-a9578b59.js">
+	<link rel="modulepreload" href="/_app/chunks/CardOutput-490fc9d4.js">
 	</head>
 	<body>
 		<div>
@@ -26,26 +29,34 @@
 		
 
 </div></nav>
-<h1>Outputs</h1>
-<div>Type
-	<div><div class="form-check"><input type="radio" class="form-check-input" name="options-type" id="option-type-0" value="all" checked>
-				<label class="form-check-label" for="option-type-0">all</label>
-			</div><div class="form-check"><input type="radio" class="form-check-input" name="options-type" id="option-type-1" value="article">
-				<label class="form-check-label" for="option-type-1">article</label>
-			</div><div class="form-check"><input type="radio" class="form-check-input" name="options-type" id="option-type-2" value="book">
-				<label class="form-check-label" for="option-type-2">book</label>
-			</div></div></div>
-<div>Work packages
-	<div><div class="form-check"><input type="radio" class="form-check-input" name="options-wp" id="option-wp-0" value="all" checked>
-				<label class="form-check-label" for="option-wp-0">all</label>
-			</div><div class="form-check"><input type="radio" class="form-check-input" name="options-wp" id="option-wp-1" value="digital-data-and-value-creation-citizens-knowledge-awareness-and-opinions">
-				<label class="form-check-label" for="option-wp-1">Digital data and value creation: citizens’ knowledge, awareness and opinions</label>
-			</div><div class="form-check"><input type="radio" class="form-check-input" name="options-wp" id="option-wp-2" value="surveillance-capitalism-social-exclusion-and-discrimination">
-				<label class="form-check-label" for="option-wp-2">Surveillance capitalism, social exclusion and discrimination</label>
-			</div></div></div>
-<h5>my article title</h5>
-	<img src="/_app/assets/image-97998cf2.jpg" alt="my article title"><h5>my super book</h5>
-	<img src="/_app/assets/image-97998cf2.jpg" alt="my super book">
+<div class="container"><div class="row"><div class="col-12"><h1 class="display-1 fw-bold my-3 pb-3 border-bottom border-secondary">Outputs</h1></div></div>
+	<div class="row pb-3"><div class="col-3"><div class="mb-4"><h4 class="text-muted fw-bold">Filter by type</h4>
+				<div><div class="form-check"><input type="radio" class="form-check-input" name="options-type" id="option-type-0" value="all" checked>
+							<label class="form-check-label Manrope-Variable fw-bold" for="option-type-0"><small>all</small></label>
+						</div><div class="form-check"><input type="radio" class="form-check-input" name="options-type" id="option-type-1" value="article">
+							<label class="form-check-label Manrope-Variable fw-bold" for="option-type-1"><small>article</small></label>
+						</div><div class="form-check"><input type="radio" class="form-check-input" name="options-type" id="option-type-2" value="book">
+							<label class="form-check-label Manrope-Variable fw-bold" for="option-type-2"><small>book</small></label>
+						</div></div></div>
+			<div class="mb-4 pt-2 border-top border-secondary"><h4 class="text-muted fw-bold">Filter by work packages</h4>
+				<div><div class="form-check"><input type="radio" class="form-check-input" name="options-wp" id="option-wp-0" value="all" checked>
+							<label class="form-check-label Manrope-Variable fw-bold" for="option-wp-0"><small>all</small></label>
+						</div><div class="form-check"><input type="radio" class="form-check-input" name="options-wp" id="option-wp-1" value="digital-data-and-value-creation-citizens-knowledge-awareness-and-opinions">
+							<label class="form-check-label Manrope-Variable fw-bold" for="option-wp-1"><small>Digital data and value creation: citizens’ knowledge, awareness and opinions</small></label>
+						</div><div class="form-check"><input type="radio" class="form-check-input" name="options-wp" id="option-wp-2" value="surveillance-capitalism-social-exclusion-and-discrimination">
+							<label class="form-check-label Manrope-Variable fw-bold" for="option-wp-2"><small>Surveillance capitalism, social exclusion and discrimination</small></label>
+						</div></div></div></div>
+		<div class="col-9 border-start border-secondary"><div class="row"><div class="col-4"><div class="card-output p-3 bg-secondary d-flex flex-column svelte-19p65vn"><div><div class="mb-4"><p class="mb-0 text-muted Manrope-Variable fw-bold"><small>article</small></p>
+			<h4 class="fw-bold">my article title</h4></div></div>
+	<div class="d-flex justify-content-between align-items-end"><div class="img-container svelte-19p65vn"><img src="/_app/assets/image-97998cf2.jpg" alt="my article title"></div>
+		<a class="btn rounded-circle btn-dark link d-flex p-0 align-items-center justify-content-center text-primary fs-5 svelte-19p65vn" role="button" href="https://google.com" target="_blank"><i class="bi bi-arrow-up-right"></i></a></div>
+</div>
+					</div><div class="col-4"><div class="card-output p-3 bg-secondary d-flex flex-column svelte-19p65vn"><div><div class="mb-4"><p class="mb-0 text-muted Manrope-Variable fw-bold"><small>book</small></p>
+			<h4 class="fw-bold">my super book</h4></div></div>
+	<div class="d-flex justify-content-between align-items-end"><div class="img-container svelte-19p65vn"><img src="/_app/assets/image-97998cf2.jpg" alt="my super book"></div>
+		<a class="btn rounded-circle btn-dark link d-flex p-0 align-items-center justify-content-center text-primary fs-5 svelte-19p65vn" role="button" href="https://google.com" target="_blank"><i class="bi bi-arrow-up-right"></i></a></div>
+</div>
+					</div></div></div></div></div>
 <div class="container border-top border-secondary"><div class="row"><div class="col-12 my-4 Manrope-Variable fw-bold"><div class="w-100 d-flex align-items-baseline mb-4"><div><p class="text-primary mb-4">A research project by:</p>
 					<img class="me-5" src="/_app/assets/unipv-65330312.png" height="65" alt="Università di Pavia"><img class="me-5" src="/_app/assets/unibi-30459921.png" height="65" alt="Università degli Studi di Milano Bicocca"><img class="me-5" src="/_app/assets/unica-b5e6e213.png" height="65" alt="Università Cattolica di Milano"><img class="me-5" src="/_app/assets/co-ed77976b.png" height="65" alt="Careof"></div>
 				<div class="ms-auto"><p class="text-primary mb-4 ">Funded by:</p>
@@ -54,10 +65,10 @@
 			<p>Drop a message to <a class="text-decoration-none" href="mailto:alessandro.caliandro@unipv.it">alessandro.caliandro@unipv.it</a></p></div></div></div>
 
 
-		<script type="module" data-hydrate="hysnli">
-		import { start } from "/_app/start-cb1b9eea.js";
+		<script type="module" data-hydrate="1ndhqx9">
+		import { start } from "/_app/start-4ccf727c.js";
 		start({
-			target: document.querySelector('[data-hydrate="hysnli"]').parentNode,
+			target: document.querySelector('[data-hydrate="1ndhqx9"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -68,7 +79,7 @@
 				error: null,
 				nodes: [
 					import("/_app/pages/__layout.svelte-f93e16ce.js"),
-						import("/_app/pages/outputs/index.svelte-6aa6579f.js")
+						import("/_app/pages/outputs/index.svelte-f74062f1.js")
 				],
 				params: {}
 			}
