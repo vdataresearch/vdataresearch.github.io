@@ -6,8 +6,6 @@ team:
  - emma-garavaglia
  - paolo-gomarasca
  - laura-zanfrini
-outputs:
- - article
 goals:
  - to explore the risks of social exclusion and discrimination stemming from processes of digital data extraction and exploitation, in Italy
  - to elaborate recommendations to prevent exclusion and discrimination in digital data  extraction and exploitation (addressed to the Italian context, but transferrable to Europe)

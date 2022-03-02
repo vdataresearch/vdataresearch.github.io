@@ -9,8 +9,6 @@ team:
  - guido-legnante
  - marco-gui
  - dario-pizzul
-outputs:
- - article
 goals:
  - to identify the main actors involved in the public online debate on surveillance capitalism  in Italy 
  - to map the main discourses characterizing and shaping the public online debate on  surveillance capitalism in Italy 

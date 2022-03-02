@@ -9,7 +9,6 @@ team:
  - chiara-respi
  - emanuela-sala
  - guido-tarricone 
-outputs:
 goals:
  - to explore the degree of knowledge and awareness of Italian citizens about how and to  which aims digital data are exploited and the economic value they produce
  - to explore Italian citizens’ attitudes and opinions towards processes of digital data  exploitation for business and non-business purposes 

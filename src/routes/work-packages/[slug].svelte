@@ -41,14 +41,14 @@
 	export async function load({ params, fetch }) {
 		const { slug } = params;
 		const wp = list.find((post) => slug === post.slug);
-		const wpTeam = listTeam.filter((d) => wp.team.includes(d.slug));
-		const wpOutputs = listOutputs.filter((d) => (wp.outputs ? wp.outputs.includes(d.slug) : false));
 		if (!wp) {
 			return {
 				status: 404,
 				error: 'Work packages not found'
 			};
 		}
+		const wpTeam = listTeam.filter((d) => wp.team.includes(d.slug));
+		const wpOutputs = listOutputs.filter((d) => (d.wp ? d.wp.includes(wp.slug) : false));
 		return {
 			props: { ...wp, team: wpTeam, outputs: wpOutputs }
 		};
@@ -64,8 +64,6 @@
 	export let component;
 	// metadata
 	export let title;
-	export let slug;
-	export let index;
 	export let team;
 	export let outputs;
 	export let goals;
@@ -112,11 +110,13 @@
 		</div>
 		<div class="col-12 mt-2">
 			{#if outputs.length}
-				{#each outputs as output}
-					<div class="col-3">
-						<CardOutput {output} />
-					</div>
-				{/each}
+				<div class="row">
+					{#each outputs as output}
+						<div class="col-3">
+							<CardOutput {output} />
+						</div>
+					{/each}
+				</div>
 			{:else}
 				<p class="text-muted">No outputs yet!</p>
 			{/if}
