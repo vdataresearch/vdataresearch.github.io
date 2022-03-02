@@ -110,7 +110,7 @@
 		</div>
 		<div class="col-12 mt-2">
 			{#each outputs as output}
-				<div class="col-4">
+				<div class="col-3">
 					<CardOutput {output} />
 				</div>
 			{/each}
