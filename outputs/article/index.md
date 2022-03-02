@@ -1,5 +1,5 @@
 ---
-title: my article title
+title: my article title very very very very very very very very long
 type: article
 link: https://google.com
 wp:

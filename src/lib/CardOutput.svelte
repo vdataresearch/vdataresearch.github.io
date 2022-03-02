@@ -2,11 +2,11 @@
 	export let output;
 </script>
 
-<div class="card-output p-3 bg-secondary d-flex flex-column">
+<div class="card-output p-3 bg-secondary d-flex flex-column justify-content-between">
 	<div>
 		<div class="mb-4">
 			<p class="mb-0 text-muted Manrope-Variable fw-bold"><small>{output.type}</small></p>
-			<h4 class="fw-bold">{output.title}</h4>
+			<h4 class="fw-bold title">{output.title}</h4>
 		</div>
 	</div>
 	<div class="d-flex justify-content-between align-items-end">
@@ -25,8 +25,15 @@
 </div>
 
 <style>
+	.title {
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+
 	.card-output {
-		min-height: 220px;
+		min-height: 273px;
 		border-radius: 30px;
 	}
 
