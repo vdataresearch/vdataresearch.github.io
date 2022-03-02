@@ -4,7 +4,7 @@
 
 <div class="card-output p-3 bg-secondary d-flex flex-column justify-content-between">
 	<div>
-		<div class="mb-4">
+		<div class="mb-5">
 			<p class="mb-0 text-muted Manrope-Variable fw-bold"><small>{output.type}</small></p>
 			<h4 class="fw-bold title">{output.title}</h4>
 		</div>
@@ -27,14 +27,15 @@
 <style>
 	.title {
 		display: -webkit-box;
-		-webkit-line-clamp: 2;
+		-webkit-line-clamp: 4;
 		-webkit-box-orient: vertical;
 		overflow: hidden;
 	}
 
 	.card-output {
-		min-height: 273px;
+		min-height: 353px;
 		border-radius: 30px;
+		height: 100%;
 	}
 
 	.link {
