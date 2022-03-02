@@ -37,9 +37,7 @@
 </script>
 
 <script>
-	import CardHome from '$lib/CardHome.svelte';
 	import CardOutput from '$lib/CardOutput.svelte';
-	import CardTeam from '$lib/CardTeam.svelte';
 
 	export let outputsList;
 	export let filterType;
@@ -60,56 +58,62 @@
 		</div>
 	</div>
 	<div class="row pb-3">
-		<div class="col-3">
-			<div class="mb-4">
-				<h4 class="text-muted fw-bold">Filter by type</h4>
-				<div>
-					{#each filterType as filter, i}
-						<div class="form-check">
-							<input
-								type="radio"
-								bind:group={type}
-								class="form-check-input"
-								name="options-type"
-								id={`option-type-${i}`}
-								value={filter}
-							/>
-							<label class="form-check-label Manrope-Variable fw-bold" for={`option-type-${i}`}
-								><small>{filter}</small></label
-							>
-						</div>
-					{/each}
-				</div>
-			</div>
-			<div class="mb-4 pt-2 border-top border-secondary">
-				<h4 class="text-muted fw-bold">Filter by work packages</h4>
-				<div>
-					{#each filterWp as filter, i}
-						<div class="form-check">
-							<input
-								type="radio"
-								bind:group={wp}
-								class="form-check-input"
-								name="options-wp"
-								id={`option-wp-${i}`}
-								value={filter.value}
-							/>
-							<label class="form-check-label Manrope-Variable fw-bold" for={`option-wp-${i}`}
-								><small>{filter.label}</small></label
-							>
-						</div>
-					{/each}
-				</div>
-			</div>
-		</div>
-		<div class="col-9 border-start border-secondary">
-			<div class="row">
-				{#each filteredList as output}
-					<div class="col-4">
-						<CardOutput {output} />
+		{#if outputsList.length}
+			<div class="col-3">
+				<div class="mb-4">
+					<h4 class="text-muted fw-bold">Filter by type</h4>
+					<div>
+						{#each filterType as filter, i}
+							<div class="form-check">
+								<input
+									type="radio"
+									bind:group={type}
+									class="form-check-input"
+									name="options-type"
+									id={`option-type-${i}`}
+									value={filter}
+								/>
+								<label class="form-check-label Manrope-Variable fw-bold" for={`option-type-${i}`}
+									><small>{filter}</small></label
+								>
+							</div>
+						{/each}
 					</div>
-				{/each}
+				</div>
+				<div class="mb-4 pt-2 border-top border-secondary">
+					<h4 class="text-muted fw-bold">Filter by work packages</h4>
+					<div>
+						{#each filterWp as filter, i}
+							<div class="form-check">
+								<input
+									type="radio"
+									bind:group={wp}
+									class="form-check-input"
+									name="options-wp"
+									id={`option-wp-${i}`}
+									value={filter.value}
+								/>
+								<label class="form-check-label Manrope-Variable fw-bold" for={`option-wp-${i}`}
+									><small>{filter.label}</small></label
+								>
+							</div>
+						{/each}
+					</div>
+				</div>
 			</div>
-		</div>
+			<div class="col-9 border-start border-secondary">
+				<div class="row">
+					{#each filteredList as output}
+						<div class="col-4">
+							<CardOutput {output} />
+						</div>
+					{/each}
+				</div>
+			</div>
+		{:else}
+			<div class="col-12">
+				<h3 class="text-muted fw-bold my-5">No ouputs yet!</h3>
+			</div>
+		{/if}
 	</div>
 </div>
