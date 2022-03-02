@@ -2,9 +2,14 @@
 index: 2
 title: "Digital data and value creation: citizens’ knowledge, awareness and opinions"
 team:
- - guido-anselmi
+ - marta-cereda
+ - alessandra-gaia
+ - marco-gui
+ - guido-legnante
+ - chiara-respi
+ - emanuela-sala
+ - guido-tarricone 
 outputs:
- - article
 goals:
  - to explore the degree of knowledge and awareness of Italian citizens about how and to  which aims digital data are exploited and the economic value they produce
  - to explore Italian citizens’ attitudes and opinions towards processes of digital data  exploitation for business and non-business purposes 

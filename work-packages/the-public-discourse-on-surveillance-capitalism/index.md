@@ -3,6 +3,12 @@ index: 1
 title: The public discourse on surveillance capitalism
 team:
  - guido-anselmi
+ - alessandro-caliandro
+ - flavio-ceravolo
+ - piercarlo-dondi
+ - guido-legnante
+ - marco-gui
+ - dario-pizzul
 outputs:
  - article
 goals:

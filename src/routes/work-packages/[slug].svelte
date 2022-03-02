@@ -42,7 +42,7 @@
 		const { slug } = params;
 		const wp = list.find((post) => slug === post.slug);
 		const wpTeam = listTeam.filter((d) => wp.team.includes(d.slug));
-		const wpOutputs = listOutputs.filter((d) => wp.outputs.includes(d.slug));
+		const wpOutputs = listOutputs.filter((d) => (wp.outputs ? wp.outputs.includes(d.slug) : false));
 		if (!wp) {
 			return {
 				status: 404,
@@ -92,16 +92,18 @@
 			</ul>
 		</div>
 	</div>
-	<div class="row border-top border-secondary py-4 ">
+	<div class="row border-top border-secondary pt-4 ">
 		<div class="col-5">
 			<h6 class="text-primary fw-bold"><small>Team member</small></h6>
 		</div>
 		<div class="col-12 mt-2">
-			{#each team as person}
-				<div class="col-4">
-					<CardTeam {person} />
-				</div>
-			{/each}
+			<div class="row">
+				{#each team as person}
+					<div class="col-4">
+						<CardTeam {person} />
+					</div>
+				{/each}
+			</div>
 		</div>
 	</div>
 	<div class="row border-top border-secondary py-4 ">
@@ -109,11 +111,15 @@
 			<h6 class="text-primary fw-bold"><small>Outputs</small></h6>
 		</div>
 		<div class="col-12 mt-2">
-			{#each outputs as output}
-				<div class="col-3">
-					<CardOutput {output} />
-				</div>
-			{/each}
+			{#if outputs.length}
+				{#each outputs as output}
+					<div class="col-3">
+						<CardOutput {output} />
+					</div>
+				{/each}
+			{:else}
+				<p class="text-muted">No outputs yet!</p>
+			{/if}
 		</div>
 	</div>
 </div>

@@ -2,7 +2,10 @@
 index: 3
 title: Surveillance capitalism, social exclusion and discrimination
 team:
- - guido-anselmi
+ - flavio-ceravolo
+ - emma-garavaglia
+ - paolo-gomarasca
+ - laura-zanfrini
 outputs:
  - article
 goals:
