@@ -1,9 +1,9 @@
 ---
 role: researcher
 affiliation: Università di Pavia
-name: Guido
-surname: Anselmi
-link: https://www.researchgate.net/profile/Guido-Anselmi-2
+name: Piercarlo
+surname: Dondi
+link: https://vision.unipv.it/people/dondi/index.html
 ---
 
 ![{name} {surname}](./profile.jpg)

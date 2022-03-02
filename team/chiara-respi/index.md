@@ -1,9 +1,9 @@
 ---
 role: researcher
 affiliation: Università degli Studi di Milano Bicocca
-name: Alessandra
-surname: Gaia
-link: https://www.unimib.it/alessandra-gaia
+name: Chiara
+surname: Crespi
+link: https://www.unimib.it/chiara-respi
 ---
 
 ![{name} {surname}](./profile.jpg)

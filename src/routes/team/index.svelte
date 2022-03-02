@@ -26,9 +26,9 @@
 		<div class="col-12"><h1 class="display-1 fw-bold my-3">Team</h1></div>
 	</div>
 	{#each teamList as group}
-		<div class="row border-top border-secondary py-3">
+		<div class="row border-top border-secondary pt-3">
 			<div class="col-4">
-				<h2>{group[0]}</h2>
+				<h2 class="fw-bold">{group[0]}</h2>
 			</div>
 
 			{#each group[1] as person}

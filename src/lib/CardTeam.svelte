@@ -2,14 +2,14 @@
 	export let person;
 </script>
 
-<div class="card-home p-3 bg-secondary d-flex flex-column justify-content-between">
+<div class="card-home p-3 bg-secondary d-flex flex-column justify-content-between mb-4">
 	<div class="d-flex">
 		<div class="img-container">
 			<svelte:component this={person.component} class="img-test" />
 		</div>
 		<div class="ms-3">
-			<p class="mb-0 text-muted Manrope-Variable"><small>{person.role}</small></p>
-			<h4>{person.name} {person.surname}</h4>
+			<p class="mb-0 text-muted Manrope-Variable fw-bold"><small>{person.role}</small></p>
+			<h4 class="fw-bold">{person.name} {person.surname}</h4>
 		</div>
 	</div>
 	<div class="align-self-end">
