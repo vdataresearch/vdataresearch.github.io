@@ -57,6 +57,8 @@
 
 <script>
 	import { page } from '$app/stores';
+	import CardOutput from '$lib/CardOutput.svelte';
+	import CardTeam from '$lib/CardTeam.svelte';
 	// import { name, website } from '$lib/info'
 
 	export let component;
@@ -69,11 +71,49 @@
 	export let goals;
 </script>
 
-<h1>{title}</h1>
-<svelte:component this={component} />
-<ul>
-	{#each goals as goal}
-		<li>{goal}</li>
-	{/each}
-</ul>
-<h2>team</h2>
+<div class="container">
+	<div class="row">
+		<div class="col-6">
+			<h1 class="display-5 fw-bold">{title}</h1>
+		</div>
+	</div>
+	<div class="row border-top border-secondary py-5 mt-4">
+		<div class="col-5">
+			<h6 class="text-primary fw-bold"><small>Description</small></h6>
+			<svelte:component this={component} />
+		</div>
+
+		<div class="offset-1 col-5">
+			<h6 class="text-primary fw-bold"><small>Goals</small></h6>
+			<ul>
+				{#each goals as goal}
+					<li>{goal}</li>
+				{/each}
+			</ul>
+		</div>
+	</div>
+	<div class="row border-top border-secondary py-4 ">
+		<div class="col-5">
+			<h6 class="text-primary fw-bold"><small>Team member</small></h6>
+		</div>
+		<div class="col-12 mt-2">
+			{#each team as person}
+				<div class="col-4">
+					<CardTeam {person} />
+				</div>
+			{/each}
+		</div>
+	</div>
+	<div class="row border-top border-secondary py-4 ">
+		<div class="col-5">
+			<h6 class="text-primary fw-bold"><small>Outputs</small></h6>
+		</div>
+		<div class="col-12 mt-2">
+			{#each outputs as output}
+				<div class="col-4">
+					<CardOutput {output} />
+				</div>
+			{/each}
+		</div>
+	</div>
+</div>
