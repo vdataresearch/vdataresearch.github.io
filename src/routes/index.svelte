@@ -5,6 +5,7 @@
 <script>
 	import Index, { metadata } from './_index.md';
 	import CardHome from '$lib/CardHome.svelte';
+	import HomeSwitches from '$lib/HomeSwitches.svelte';
 	const cards = [
 		{ path: '/team', label: 'Team' },
 		{ path: '/work-packages', label: 'Work Packages' },
@@ -16,6 +17,7 @@
 	<div class="row">
 		<div class="col-12">
 			<p class="h4 text-primary w-50">{metadata.subtitle}</p>
+			<HomeSwitches />
 			<div class="intro-text">
 				<Index />
 			</div>
