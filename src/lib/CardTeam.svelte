@@ -14,7 +14,7 @@
 	</div>
 	<div class="align-self-end">
 		<a
-			class="btn rounded-circle btn-dark link d-flex p-0 align-items-center justify-content-center text-primary fs-5"
+			class="arrow btn rounded-circle btn-dark link d-flex p-0 align-items-center justify-content-center text-primary fs-5"
 			role="button"
 			href={person.link}
 			target="_blank"
@@ -46,5 +46,14 @@
 		height: 94px;
 		object-fit: cover;
 		object-position: center center;
+	}
+
+	.arrow {
+		transform: rotate(0);
+		transition: transform 0.2s ease-in-out;
+	}
+
+	.arrow:hover {
+		transform: rotate(45deg);
 	}
 </style>
