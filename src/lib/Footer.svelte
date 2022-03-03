@@ -23,14 +23,19 @@
 <div class="container border-top border-secondary">
 	<div class="row">
 		<div class="col-12 my-4 Manrope-Variable fw-bold">
-			<div class="w-100 d-flex align-items-baseline mb-4">
-				<div>
+			<div class="w-100 d-flex flex-md-row flex-column align-items-baseline mb-4">
+				<div class="mb-3">
 					<p class="text-primary mb-4">A research project by:</p>
 					{#each affiliations as affiliation}
-						<img class="me-5" src={logos[affiliation.logo]} height="65" alt={affiliation.label} />
+						<img
+							class="me-5 my-2"
+							src={logos[affiliation.logo]}
+							height="65"
+							alt={affiliation.label}
+						/>
 					{/each}
 				</div>
-				<div class="ms-auto">
+				<div class="ms-0 ms-md-auto">
 					<p class="text-primary mb-4 ">Funded by:</p>
 					<img src={cariplo} height="65" alt="Fondazione Cariplo" />
 				</div>
