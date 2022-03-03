@@ -22,8 +22,12 @@
 </script>
 
 <script>
+	import Head from '$lib/Head.svelte';
+	import { page } from '$app/stores';
 	export let wpList;
 </script>
+
+<Head path={$page.url.pathname} title={'Work Packages'} />
 
 <div class="container">
 	<div class="row">

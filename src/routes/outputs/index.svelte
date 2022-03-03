@@ -38,6 +38,8 @@
 
 <script>
 	import CardOutput from '$lib/CardOutput.svelte';
+	import Head from '$lib/Head.svelte';
+	import { page } from '$app/stores';
 
 	export let outputsList;
 	export let filterType;
@@ -50,6 +52,8 @@
 		(d) => (type === 'all' ? true : d.type === type) && (wp === 'all' ? true : d.wp.includes(wp))
 	);
 </script>
+
+<Head path={$page.url.pathname} title={'Outputs'} />
 
 <div class="container">
 	<div class="row">

@@ -56,19 +56,19 @@
 </script>
 
 <script>
+	import Head from '$lib/Head.svelte';
 	import { page } from '$app/stores';
 	import CardOutput from '$lib/CardOutput.svelte';
 	import CardTeam from '$lib/CardTeam.svelte';
-	// import { name, website } from '$lib/info'
 
 	export let component;
-	// metadata
 	export let title;
 	export let team;
 	export let outputs;
 	export let goals;
 </script>
 
+<Head path={$page.url.pathname} {title} />
 <div class="container">
 	<div class="row">
 		<div class="col-6">

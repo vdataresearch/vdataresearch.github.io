@@ -18,8 +18,12 @@
 
 <script>
 	import CardTeam from '$lib/CardTeam.svelte';
+	import Head from '$lib/Head.svelte';
+	import { page } from '$app/stores';
 	export let teamList;
 </script>
+
+<Head path={$page.url.pathname} title={'Team'} />
 
 <div class="container">
 	<div class="row">

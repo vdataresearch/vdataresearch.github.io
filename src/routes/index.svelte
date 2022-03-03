@@ -4,8 +4,11 @@
 
 <script>
 	import Index, { metadata } from './_index.md';
+	import { page } from '$app/stores';
 	import CardHome from '$lib/CardHome.svelte';
 	import HomeSwitches from '$lib/HomeSwitches.svelte';
+	import Head from '$lib/Head.svelte';
+
 	const cards = [
 		{ path: '/team', label: 'Team' },
 		{ path: '/work-packages', label: 'Work Packages' },
@@ -13,6 +16,7 @@
 	];
 </script>
 
+<Head path={$page.url.pathname} />
 <div class="container">
 	<div class="row">
 		<div class="col-12">
