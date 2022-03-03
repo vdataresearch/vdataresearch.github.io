@@ -11,7 +11,7 @@
 	</div>
 	<div class="d-flex justify-content-between align-items-end">
 		<div class="img-container">
-			<svelte:component this={output.component} class="img-test" />
+			<svelte:component this={output.component} />
 		</div>
 		<a
 			class="btn rounded-circle btn-dark link d-flex p-0 align-items-center justify-content-center text-primary fs-5"
@@ -50,5 +50,9 @@
 
 	.img-container :global(img) {
 		filter: grayscale(1);
+		width: 134px;
+		height: 134px;
+		object-fit: cover;
+		object-position: center center;
 	}
 </style>
