@@ -41,6 +41,8 @@
 	import Head from '$lib/Head.svelte';
 	import { page } from '$app/stores';
 	import MediaQuery from 'svelte-media-query';
+	import { fade } from 'svelte/transition';
+	import { flip } from 'svelte/animate';
 
 	export let outputsList;
 	export let filterType;
@@ -143,8 +145,12 @@
 			</div>
 			<div class="col-12 col-md-9 border-start border-secondary">
 				<div class="row">
-					{#each filteredList as output}
-						<div class="col-12 col-md-4 mb-4">
+					{#each filteredList as output (output.title)}
+						<div
+							class="col-12 col-md-4 mb-4"
+							animate:flip={{ duration: 500 }}
+							transition:fade|local={{ duration: 500 }}
+						>
 							<CardOutput {output} />
 						</div>
 					{/each}
