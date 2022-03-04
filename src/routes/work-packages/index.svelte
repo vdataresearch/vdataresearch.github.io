@@ -35,12 +35,12 @@
 			<h1 class="display-1 fw-bold my-3 pb-3 border-bottom border-secondary">Work Packages</h1>
 			{#each wpList as wp}
 				<div
-					class="card-wp p-4 bg-secondary my-4 d-flex justify-content-between align-items-center"
+					class="card-wp p-4 bg-secondary my-4 d-flex flex-column flex-md-row justify-content-between align-items-center"
 				>
-					<h3 class="fw-bold">
+					<h3 class="fw-bold mb-3 mb-md-0">
 						{wp.title}
 					</h3>
-					<div>
+					<div class="align-self-end">
 						<a
 							class="btn rounded-circle btn-dark link d-flex p-0 align-items-center justify-content-center text-primary fs-4"
 							role="button"
@@ -58,10 +58,22 @@
 <style>
 	.card-wp {
 		border-radius: 30px;
+		min-height: 250px;
 	}
 
 	.link {
-		width: 100px;
-		height: 100px;
+		width: 60px;
+		height: 60px;
+	}
+
+	@media (min-width: 768px) {
+		.link {
+			width: 100px;
+			height: 100px;
+		}
+
+		.card-wp {
+			min-height: unset;
+		}
 	}
 </style>
