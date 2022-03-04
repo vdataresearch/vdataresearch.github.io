@@ -20,7 +20,7 @@
 		<Collapse {isOpen} navbar expand="lg">
 			<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 				{#each navItems as navItem}
-					<li class="nav-item">
+					<li class="nav-item mx-2">
 						<a
 							class="nav-link Manrope-Variable fw-bold h4"
 							class:active={$page.url.pathname.startsWith(navItem.path)}
