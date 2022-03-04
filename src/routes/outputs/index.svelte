@@ -40,6 +40,7 @@
 	import CardOutput from '$lib/CardOutput.svelte';
 	import Head from '$lib/Head.svelte';
 	import { page } from '$app/stores';
+	import MediaQuery from 'svelte-media-query';
 
 	export let outputsList;
 	export let filterType;
@@ -63,52 +64,87 @@
 	</div>
 	<div class="row pb-3">
 		{#if outputsList.length}
-			<div class="col-3">
+			<div class="col-md-3 col-12">
 				<div class="mb-4">
 					<h4 class="text-muted fw-bold">Filter by type</h4>
-					<div>
-						{#each filterType as filter, i}
-							<div class="form-check">
-								<input
-									type="radio"
-									bind:group={type}
-									class="form-check-input"
-									name="options-type"
-									id={`option-type-${i}`}
-									value={filter}
-								/>
-								<label class="form-check-label Manrope-Variable fw-bold" for={`option-type-${i}`}
-									><small>{filter}</small></label
-								>
+					<MediaQuery query="(min-width: 768px)" let:matches>
+						{#if matches}
+							<div>
+								{#each filterType as filter, i}
+									<div class="form-check">
+										<input
+											type="radio"
+											bind:group={type}
+											class="form-check-input"
+											name="options-type"
+											id={`option-type-${i}`}
+											value={filter}
+										/>
+										<label
+											class="form-check-label Manrope-Variable fw-bold"
+											for={`option-type-${i}`}><small>{filter}</small></label
+										>
+									</div>
+								{/each}
 							</div>
-						{/each}
-					</div>
+						{:else}
+							<div>
+								<select
+									class="form-select bg-secondary text-white Manrope-Variable fw-bold border-secondary"
+									bind:value={type}
+								>
+									{#each filterType as filter, i}
+										<option value={filter}>
+											{filter}
+										</option>
+									{/each}
+								</select>
+							</div>
+						{/if}
+					</MediaQuery>
 				</div>
 				<div class="mb-4 pt-2 border-top border-secondary">
 					<h4 class="text-muted fw-bold">Filter by work packages</h4>
-					<div>
-						{#each filterWp as filter, i}
-							<div class="form-check">
-								<input
-									type="radio"
-									bind:group={wp}
-									class="form-check-input"
-									name="options-wp"
-									id={`option-wp-${i}`}
-									value={filter.value}
-								/>
-								<label class="form-check-label Manrope-Variable fw-bold" for={`option-wp-${i}`}
-									><small>{filter.label}</small></label
-								>
+					<MediaQuery query="(min-width: 768px)" let:matches>
+						{#if matches}
+							<div>
+								{#each filterWp as filter, i}
+									<div class="form-check">
+										<input
+											type="radio"
+											bind:group={wp}
+											class="form-check-input"
+											name="options-wp"
+											id={`option-wp-${i}`}
+											value={filter.value}
+										/>
+										<label class="form-check-label Manrope-Variable fw-bold" for={`option-wp-${i}`}
+											><small>{filter.label}</small></label
+										>
+									</div>
+								{/each}
 							</div>
-						{/each}
-					</div>
+						{:else}
+							<div>
+								<select
+									class="form-select bg-secondary text-white Manrope-Variable fw-bold border-secondary"
+									bind:value={wp}
+								>
+									{#each filterWp as filter, i}
+										<option value={filter.value}>
+											{filter.label}
+										</option>
+									{/each}
+								</select>
+							</div>
+						{/if}
+					</MediaQuery>
 				</div>
 			</div>
-			<div class="col-9 border-start border-secondary">
+			<div class="col-12 col-md-9 border-start border-secondary">
 				<div class="row">
 					{#each filteredList as output}
-						<div class="col-4">
+						<div class="col-12 col-md-4 mb-4">
 							<CardOutput {output} />
 						</div>
 					{/each}

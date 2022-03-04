@@ -1,6 +1,7 @@
 $primary: #4ecb71;
 $secondary: #323232;
 $dark: #000;
+$form-select-indicator-color: $primary;
 
 @import '../node_modules/bootstrap/scss/functions';
 @import '../node_modules/bootstrap/scss/variables';
