@@ -11,8 +11,8 @@
 	];
 </script>
 
-<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-	<div class="container-fluid">
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-header">
+	<div class="container-fluid my-2">
 		<a class="navbar-brand" href="/">
 			<img src="/logo.png" alt="" height="24" class="d-inline-block align-text-top" />
 		</a>
@@ -32,3 +32,13 @@
 		</Collapse>
 	</div>
 </nav>
+
+<style>
+	.bg-header {
+		background: linear-gradient(
+			180deg,
+			rgba(var(--bs-dark-rgb), 1) 60%,
+			rgba(var(--bs-dark-rgb), 0) 100%
+		);
+	}
+</style>
