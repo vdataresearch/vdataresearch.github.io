@@ -2,7 +2,7 @@
 	export let output;
 </script>
 
-<div class="card-output p-3 bg-secondary d-flex flex-column justify-content-between">
+<div class="card-output p-3 bg-secondary d-flex flex-column justify-content-between mb-3">
 	<div>
 		<div class="mb-5">
 			<p class="mb-0 text-muted Manrope-Variable fw-bold"><small>{output.type}</small></p>
