@@ -31,12 +31,12 @@
 	</div>
 	{#each teamList as group}
 		<div class="row border-top border-secondary pt-3">
-			<div class="col-4">
-				<h2 class="fw-bold">{group[0]}</h2>
+			<div class="col-12 col-md-4">
+				<h2 class="fw-bold mt-3 mt-md-0 mb-5">{group[0]}</h2>
 			</div>
 
 			{#each group[1] as person}
-				<div class="col-4">
+				<div class="col-12 col-md-4">
 					<CardTeam {person} />
 				</div>
 			{/each}
