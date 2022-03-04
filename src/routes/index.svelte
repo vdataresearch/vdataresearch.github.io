@@ -42,6 +42,12 @@
 		text-indent: 2rem;
 	}
 
+	.intro-text :global(strong) {
+		font-family: 'Manrope-variable';
+		font-weight: bold;
+		color: var(--bs-primary);
+	}
+
 	@media (min-width: 768px) {
 		.intro-text {
 			font-size: 2.25rem;
