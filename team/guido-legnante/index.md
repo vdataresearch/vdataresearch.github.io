@@ -1,5 +1,5 @@
 ---
-role: principal investigator
+role: Principal Investigator
 affiliation: Università di Pavia
 name: Guido
 surname: Legnante
