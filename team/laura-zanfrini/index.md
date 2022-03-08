@@ -1,5 +1,5 @@
 ---
-role: researcher
+role: Researcher
 affiliation: Università Cattolica di Milano
 name: Laura
 surname: Zanfrini

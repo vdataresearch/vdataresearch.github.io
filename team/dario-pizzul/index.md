@@ -1,5 +1,5 @@
 ---
-role: researcher
+role: Researcher
 affiliation: Università degli Studi di Milano Bicocca
 name: Dario
 surname: Pizzul

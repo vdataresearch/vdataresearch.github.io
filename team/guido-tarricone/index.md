@@ -1,5 +1,5 @@
 ---
-role: researcher
+role: Artist
 affiliation: Careof
 name: Guido
 surname: Tarricone

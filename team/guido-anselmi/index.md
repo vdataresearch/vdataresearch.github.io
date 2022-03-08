@@ -1,5 +1,5 @@
 ---
-role: researcher
+role: Researcher
 affiliation: Università di Pavia
 name: Guido
 surname: Anselmi
