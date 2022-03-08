@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-9935bcad.js",
+    "file": "start-917b4d9f.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -85,13 +85,13 @@
     ]
   },
   "src/routes/work-packages/[slug].svelte": {
-    "file": "pages/work-packages/_slug_.svelte-9ce57f6d.js",
+    "file": "pages/work-packages/_slug_.svelte-fab65b50.js",
     "src": "src/routes/work-packages/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_CardOutput-b13767e8.js",
-      "_CardTeam-7866242a.js",
+      "_CardTeam-8155c972.js",
       "_index-e67ca8ff.js",
       "_vendor-9afc8e62.js",
       "_Head-6f288903.js",
@@ -112,12 +112,12 @@
     ]
   },
   "src/routes/team/index.svelte": {
-    "file": "pages/team/index.svelte-aa25a722.js",
+    "file": "pages/team/index.svelte-1258f893.js",
     "src": "src/routes/team/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_CardTeam-7866242a.js",
+      "_CardTeam-8155c972.js",
       "_vendor-9afc8e62.js",
       "_Head-6f288903.js",
       "_stores-6b5d310d.js"
@@ -159,8 +159,8 @@
       "assets/image-97998cf2.jpg"
     ]
   },
-  "_CardTeam-7866242a.js": {
-    "file": "chunks/CardTeam-7866242a.js",
+  "_CardTeam-8155c972.js": {
+    "file": "chunks/CardTeam-8155c972.js",
     "imports": [
       "_vendor-9afc8e62.js"
     ],
@@ -168,8 +168,19 @@
       "assets/CardTeam-69920859.css"
     ],
     "assets": [
+      "assets/profile-25721a80.png",
+      "assets/profile-5f27d580.jpg",
+      "assets/profile-5269246f.jpg",
       "assets/profile-2cf8a3c8.jpg",
-      "assets/profile-96978a9d.jpg"
+      "assets/profile-31f39ebe.jpg",
+      "assets/profile-c7428a60.jpg",
+      "assets/profile-1b40994d.jpg",
+      "assets/profile-7c0d638b.jpg",
+      "assets/profile-7874e3ed.jpg",
+      "assets/profile-e94df8cb.jpg",
+      "assets/profile-9f8eb4dd.jpg",
+      "assets/profile-38798180.jpg",
+      "assets/profile-2b9bd1f7.jpg"
     ]
   }
 }
