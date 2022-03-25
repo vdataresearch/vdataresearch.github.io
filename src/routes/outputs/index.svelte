@@ -23,7 +23,7 @@
 		return {
 			props: {
 				outputsList: list,
-				filterType: ['all', ...list.map((d) => d.type)],
+				filterType: ['all', ...new Set(list.map((d) => d.type))],
 				filterWp: [
 					{ value: 'all', label: 'all' },
 					[...new Set(list.map((d) => d.wp).flat())].map((d) => {
