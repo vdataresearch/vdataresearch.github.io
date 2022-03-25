@@ -1,9 +1,10 @@
 ---
-title: My Article 2 Yo 
+title: My great article YO
 type: article
 link: https://google.com
 wp:
- - the-public-discourse-on-surveillance-capitalism
+ - digital-data-and-value-creation-citizens-knowledge-awareness-and-opinions
+ - surveillance-capitalism-social-exclusion-and-discrimination
 ---
 
 ![{title}](./image.jpg)
