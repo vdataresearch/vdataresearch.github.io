@@ -1,10 +1,9 @@
 ---
-title: my super book
-type: book
+title: My article title 2222
+type: article
 link: https://google.com
 wp:
  - digital-data-and-value-creation-citizens-knowledge-awareness-and-opinions
- - the-public-discourse-on-surveillance-capitalism
 ---
 
 ![{title}](./image.jpg)
