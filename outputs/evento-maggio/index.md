@@ -1,5 +1,5 @@
 ---
-title: Evento Maggio
+title: Evento
 type: event
 link: https://google.com
 wp:
