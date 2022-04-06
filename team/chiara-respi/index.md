@@ -2,7 +2,7 @@
 role: Researcher
 affiliation: Università degli Studi di Milano Bicocca
 name: Chiara
-surname: Crespi
+surname: Respi
 link: https://www.unimib.it/chiara-respi
 ---
 
