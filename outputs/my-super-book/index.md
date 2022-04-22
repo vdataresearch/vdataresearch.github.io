@@ -1,5 +1,5 @@
 ---
-title: my super book
+title: book
 type: book
 link: https://google.com
 wp:
