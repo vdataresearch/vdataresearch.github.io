@@ -1,9 +1,9 @@
 ---
 role: Artist
 affiliation: Careof
-name: Guido
-surname: Tarricone
-link: https://www.guidotarricone.it/
+name: Guildor
+surname:
+link: https://www.guildor.com/
 ---
 
 ![{name} {surname}](./profile.jpg)
