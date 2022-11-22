@@ -7,4 +7,4 @@ wp:
  - the-public-discourse-on-surveillance-capitalism
 ---
 
-![{title}](./image.jpg)
+![{title}](./image.png)
