@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-33429b56.js",
+    "file": "start-6f54af01.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -85,13 +85,13 @@
     ]
   },
   "src/routes/work-packages/[slug].svelte": {
-    "file": "pages/work-packages/_slug_.svelte-169c94a5.js",
+    "file": "pages/work-packages/_slug_.svelte-13a9c1a5.js",
     "src": "src/routes/work-packages/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_CardOutput-43f689b0.js",
-      "_CardTeam-8e04b444.js",
+      "_CardTeam-e3f1daa6.js",
       "_index-79c3c4ed.js",
       "_vendor-9afc8e62.js",
       "_Head-6f288903.js",
@@ -123,12 +123,12 @@
     ]
   },
   "src/routes/team/index.svelte": {
-    "file": "pages/team/index.svelte-e1c3177e.js",
+    "file": "pages/team/index.svelte-342df3f3.js",
     "src": "src/routes/team/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_CardTeam-8e04b444.js",
+      "_CardTeam-e3f1daa6.js",
       "_vendor-9afc8e62.js",
       "_Head-6f288903.js",
       "_stores-6b5d310d.js"
@@ -172,8 +172,8 @@
       "assets/image-cf88046b.png"
     ]
   },
-  "_CardTeam-8e04b444.js": {
-    "file": "chunks/CardTeam-8e04b444.js",
+  "_CardTeam-e3f1daa6.js": {
+    "file": "chunks/CardTeam-e3f1daa6.js",
     "imports": [
       "_vendor-9afc8e62.js"
     ],
@@ -182,6 +182,7 @@
     ],
     "assets": [
       "assets/profile-25721a80.png",
+      "assets/profile-3760d78b.jpg",
       "assets/profile-5f27d580.jpg",
       "assets/profile-5269246f.jpg",
       "assets/profile-5d8e307a.jpg",
