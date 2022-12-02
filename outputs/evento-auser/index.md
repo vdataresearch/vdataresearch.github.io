@@ -1,10 +1,11 @@
 ---
-title: "Panel STS Conference 28-30 June 2023"
+title: "Mitopoietica Festival 2022"
 type: event
-link: https://eventi.unibo.it/stsitalia2023/panel-39
+link: https://mitopoietica.it/il-programma-2/
 wp:
  - the-public-discourse-on-surveillance-capitalism
+ - digital-data-and-value-creation-citizens-knowledge-awareness-and-opinions
 
 ---
 
-![{title}](./image.png)
+![{title}](./image.jpg)
