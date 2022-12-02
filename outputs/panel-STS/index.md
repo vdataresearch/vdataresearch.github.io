@@ -1,7 +1,7 @@
 ---
-title: "Surveillance & Society Rotterdam Conference 2022"
+title: "STS Conference - 28-30 June 2023"
 type: event
-link: https://www.eur.nl/en/eshcc/research/ssn-2022/conference-programme
+link: https://eventi.unibo.it/stsitalia2023/panel-39
 wp:
  - the-public-discourse-on-surveillance-capitalism
 
