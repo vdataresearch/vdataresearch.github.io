@@ -1,11 +1,10 @@
 ---
-title: "Evento Auser - 1 Dicembre 2022"
+title: "Panel STS Conference 28-30 June 2023"
 type: event
-link: https://www.facebook.com/photo/?fbid=145187624936931&set=a.145187661603594
+link: https://eventi.unibo.it/stsitalia2023/panel-39
 wp:
- - digital-data-and-value-creation-citizens-knowledge-awareness-and-opinions
  - the-public-discourse-on-surveillance-capitalism
- - surveillance-capitalism-social-exclusion-and-discrimination
+
 ---
 
-![{title}](./image.jpg)
+![{title}](./image.png)
