@@ -26,7 +26,7 @@ const config = {
 				viteStaticCopy({
 					targets: [
 						{
-							src: ['outputs/**/*.{pdf, xls}'],
+							src: ['outputs/**/*.{pdf,xls}'],
 							dest: '../'
 						}
 					]
