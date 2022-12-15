@@ -11,7 +11,7 @@ wp:
   export { DownloadButton };
 </script>
 
-![{title}](./image.png)
+![{title}](./image.jpg)
 
 Hereby a useful directory of Initiatives and Research Centres working on several issues and topics related to surveillance capitalism (such as dataveillance, data activism, data ethics, data privacy & transparency, platform surveillance, etc.)
 <DownloadButton link="/RESEARCH-CENTRES-INITIATIVES.xls" text="download"></DownloadButton>
