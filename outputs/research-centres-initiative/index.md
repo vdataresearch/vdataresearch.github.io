@@ -1,5 +1,5 @@
 ---
-title: "Research Centres and Initiative"
+title: "Research Centres and Initiatives"
 type: document
 wp:
  - digital-data-and-value-creation-citizens-knowledge-awareness-and-opinions
