@@ -68,7 +68,9 @@
 		{/if}
 		<div class="col-12 col-md-6">
 			<h6 class="text-primary fw-bold"><small>Work packages</small></h6>
-			<p>{wps.map((d) => d.label).join()}</p>
+			{#each wps as wp}
+				<p class="my-1">{wp.label}</p>
+			{/each}
 		</div>
 	</div>
 	<div class="row">
