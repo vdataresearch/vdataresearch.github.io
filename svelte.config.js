@@ -10,9 +10,11 @@ const config = {
 	preprocess: [mdsvex(mdsvexConfig), preprocess()],
 	kit: {
 		adapter: adapter(),
+		trailingSlash: 'always',
 		prerender: {
 			entries: ['*'],
-			crawl: false
+			crawl: true,
+			onError: 'continue'
 		},
 
 		vite: {

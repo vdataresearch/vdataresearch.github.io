@@ -5,6 +5,7 @@
 
 <div class="mb-3">
 	<a
+		sveltekit:reload
 		class="btn btn-primary btn-sm Manrope-Variable fw-bold"
 		role="button"
 		href={link}

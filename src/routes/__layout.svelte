@@ -1,5 +1,7 @@
 <script context="module">
 	export const load = async ({ url }) => ({ props: { url } });
+	export const prerender = true;
+	export const trailingSlash = 'always';
 </script>
 
 <script>
