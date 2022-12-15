@@ -5,7 +5,9 @@
 <div class="card-output p-3 bg-secondary d-flex flex-column justify-content-between">
 	<div>
 		<div class="mb-5">
-			<p class="mb-0 text-muted Manrope-Variable fw-bold"><small>{output.type}</small></p>
+			<p class="mb-0 text-muted Manrope-Variable fw-bold text-capitalize">
+				<small>{output.type}</small>
+			</p>
 			<h4 class="fw-bold title">{output.title}</h4>
 		</div>
 	</div>
@@ -13,14 +15,24 @@
 		<div class="img-container">
 			<svelte:component this={output.component} />
 		</div>
-		<a
-			class="arrow btn rounded-circle btn-dark link d-flex p-0 align-items-center justify-content-center text-primary fs-5"
-			role="button"
-			href={output.link}
-			target="_blank"
-		>
-			<i class="bi bi-arrow-up-right" />
-		</a>
+		{#if output.link}
+			<a
+				class="arrow btn rounded-circle btn-dark link d-flex p-0 align-items-center justify-content-center text-primary fs-5"
+				role="button"
+				href={output.link}
+				target="_blank"
+			>
+				<i class="bi bi-arrow-up-right" />
+			</a>
+		{:else}
+			<a
+				class="eye btn rounded-circle btn-dark link d-flex p-0 align-items-center justify-content-center text-primary fs-5"
+				role="button"
+				href={`/outputs/${output.slug}`}
+			>
+				<i class="bi bi-eye" />
+			</a>
+		{/if}
 	</div>
 </div>
 
@@ -56,6 +68,10 @@
 		object-position: center center;
 	}
 
+	.img-container :global(*:not(img:first-of-type)) {
+		display: none;
+	}
+
 	.arrow {
 		transform: rotate(0);
 		transition: transform 0.2s ease-in-out;
@@ -63,5 +79,14 @@
 
 	.arrow:hover {
 		transform: rotate(45deg);
+	}
+
+	.eye i {
+		transform: scale(1);
+		transition: transform 0.2s ease-in-out;
+	}
+
+	.eye:hover i {
+		transform: scale(1.2);
 	}
 </style>

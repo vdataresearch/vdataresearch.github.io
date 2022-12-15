@@ -46,6 +46,17 @@
 					class="text-decoration-none"
 					href="mailto:alessandro.caliandro@unipv.it">alessandro.caliandro@unipv.it</a
 				>
+				- <a class="text-white" href="https://twitter.com/vdataresearch" target="_blank">twitter</a>
+				-
+				<a class="text-white" href="https://www.facebook.com/Vdataresearch" target="_blank"
+					>facebook</a
+				>
+				-
+				<a
+					class="text-white"
+					href="https://www.researchgate.net/project/V-DATA-The-value-of-digital-data-enhancing-citizens-awareness-and-voice-about-surveillance-capitalism"
+					target="_blank">researchgate</a
+				>
 			</p>
 		</div>
 	</div>

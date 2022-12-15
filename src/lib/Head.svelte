@@ -8,6 +8,10 @@
 <svelte:head>
 	<title>{title ? baseTitle + ' - ' + title : baseTitle}</title>
 	<meta name="description" content={description} />
+	<meta
+		name="author"
+		content="alessandra gaia, alessandro caliandro, annavittoria sarli, chiara respi, dario pizzul, emanuela sala, emma garavaglia, flavio ceravolo, guido anselmi, guido legnante, guido tarricone, laura zanfrini, marco gui, marta cereda, paolo gomarasca, piercarlo dondi"
+	/>
 
 	<meta property="og:url" content={website + path} />
 	<meta property="og:type" content="website" />

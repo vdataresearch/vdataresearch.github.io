@@ -1,8 +1,10 @@
 <script context="module">
+	import { slugFromPath } from '$lib/utils';
 	export const prerender = true;
 	const list = Object.entries(import.meta.globEager('/outputs/**/*.md')).map(([filepath, post]) => {
 		return {
 			...post.metadata,
+			slug: slugFromPath(filepath),
 			component: post.default
 		};
 	});
@@ -83,7 +85,7 @@
 											value={filter}
 										/>
 										<label
-											class="form-check-label Manrope-Variable fw-bold"
+											class="form-check-label Manrope-Variable fw-bold text-capitalize"
 											for={`option-type-${i}`}><small>{filter}</small></label
 										>
 									</div>
@@ -120,8 +122,9 @@
 											id={`option-wp-${i}`}
 											value={filter.value}
 										/>
-										<label class="form-check-label Manrope-Variable fw-bold" for={`option-wp-${i}`}
-											><small>{filter.label}</small></label
+										<label
+											class="form-check-label Manrope-Variable fw-bold text-capitalize"
+											for={`option-wp-${i}`}><small>{filter.label}</small></label
 										>
 									</div>
 								{/each}
