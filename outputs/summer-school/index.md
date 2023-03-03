@@ -1,5 +1,5 @@
 ---
-title: "Summer School Digital Methods for Critical Consumer Studies & Surveillance 2023"
+title: "Summer School - Digital Methods for Critical Consumer Studies & Surveillance 2023"
 type: event
 link: https://dmcs2023.lakecomoschool.org/
 wp:
