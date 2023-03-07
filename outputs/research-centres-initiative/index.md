@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD
-title: "Research Centres Initiatives"
-=======
 title: "Research Centres and Initiatives"
->>>>>>> 6db510b7fb5458a107d0d227be7afaa17d3aeddf
 type: document
 wp:
  - digital-data-and-value-creation-citizens-knowledge-awareness-and-opinions
