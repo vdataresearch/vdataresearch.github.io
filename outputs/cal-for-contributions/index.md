@@ -1,10 +1,6 @@
 ---
 title: "V-Data final conference - call for contributions"
 type: document
-wp:
- - the-public-discourse-on-surveillance-capitalism
- - digital-data-and-value-creation-citizens-knowledge-awareness-and-opinions
- - surveillance-capitalism-social-exclusion-and-discrimination
 ---
 
 <script context="module">
