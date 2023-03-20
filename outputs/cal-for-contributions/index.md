@@ -48,7 +48,7 @@ The following are examples of topics that are of particular interest:
 - The platformization of consumer imagination and practices (or how platforms standardise consumer behaviours to make them more predictable and data-ready). 
 - Living with the hyper-nudging.
 
-#### Conference venure
+#### Conference venue
 The conference will take place at the University of Pavia (https://web-en.unipv.it/about-us/), Department of Political and Social Sciences, Italy.
 Pavia is located 30 km south of Milan, to which is connected by trains every 30 minutes.
 
