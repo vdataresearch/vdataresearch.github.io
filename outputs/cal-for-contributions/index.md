@@ -1,6 +1,7 @@
 ---
 title: "V-Data final conference - call for contributions"
 type: document
+wp: []
 ---
 
 <script context="module">
