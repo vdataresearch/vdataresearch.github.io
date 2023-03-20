@@ -15,7 +15,7 @@ wp:
 ![{title}](./image.png)
 
 #### Final conference
-The final conference of the project V-Data - The value of digital data: enhancing citizens' awareness and voice about surveillance capitalism (https://vdataresearch.com/), funded by Fondazione Cariplo, will take place 7-8 September 2023 at the University of Pavia (https://web-en.unipv.it/about-us/), Department of Political and Social Sciences, Italy.
+The final conference of the project "V-Data - The value of digital data: enhancing citizens' awareness and voice about surveillance capitalism", funded by Fondazione Cariplo, will take place 7-8 September 2023 at the University of Pavia (https://web-en.unipv.it/about-us/), Department of Political and Social Sciences, Italy.
 The event will comprise panel presentations and one keynote session hosting the internationally renowned  scholar Stefania Milan (https://www.stefaniamilan.net/about-me/). 
 A maximum of 25 papers will be selected for presentation. Preference will be given to speakers who plan to attend the conference in person, but a small number of remote presentations (no more than one per panel) may be included in the programme. 
 The organising committee is exploring options to publish a special issue in a peer review journal associated with this call for contributions.
