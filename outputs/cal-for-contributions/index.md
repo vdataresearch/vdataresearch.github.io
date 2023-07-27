@@ -126,4 +126,4 @@ Alessandro Caliandro, Flavio Ceravolo, Guido Legnante, Samantha Conte, Antonella
 **Session 8 - Family & parenting (Aula Grande)**
 -	Julie Dereymaeker, Tom De Leyn and Ralf De Wolf: Datafied families and parental surveillance by default? Exploring parental care and surveillance in the construction of smart home technology
 -	Ribak Rivka and Gal Shayovitz: Surveillance Capitalism In Embryo
--	Mathias Klang: <Parental Panopticons and Everyday Resistance: Domestic Surveillance and young adults>
+-	Mathias Klang: Parental Panopticons and Everyday Resistance: Domestic Surveillance and young adults
