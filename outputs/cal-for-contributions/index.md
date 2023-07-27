@@ -87,6 +87,7 @@ Alessandro Caliandro, Flavio Ceravolo, Guido Legnante, Samantha Conte, Antonella
 **Stefania Milan (Professor of Critical Data Studies at the University of Amsterdam)**
 
 **4:30 PM - 6:30 PM**
+
 **Session 3 – Awareness (Aula B)**
 -	Martin Trans: Datafying groceries: consumers’ willingness to participate in loyalty programs
 -	Luca Giuffrè: Algorithm Literacy at School: teenagers reasoning of algorithm-mediated experiences
@@ -105,6 +106,7 @@ Alessandro Caliandro, Flavio Ceravolo, Guido Legnante, Samantha Conte, Antonella
 **Friday, September 8th**
 
 **9:00 AM - 11:00 AM**
+
 **Session 5 – Activism (Aula B)**
 -	Alice di Leva, Emma Garavaglia and Annavittoria Sarli: Social injustice in surveillance capitalism: reflections on the Italian context
 -	Annika Richterich: Who values Data Minimalism? On Solidarity in Feminist Data Activism
@@ -119,6 +121,7 @@ Alessandro Caliandro, Flavio Ceravolo, Guido Legnante, Samantha Conte, Antonella
 **11:00 AM - 11:30 AM: Coffee break**
 
 **11:30 AM - 1:00 PM**
+
 **Session 7 – Work and cultural production (Aula B)**
 -	Alessandro Gandini, Marianna d’Ovidio and Ilir Rama: Community, cultural production and the pandemic
 -	Josephine West: Sex, Power and Surveillance Capitalism in the Multi-Billion Dollar Camming Sector
