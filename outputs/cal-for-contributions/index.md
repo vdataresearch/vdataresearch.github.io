@@ -87,7 +87,7 @@ Alessandro Caliandro, Flavio Ceravolo, Guido Legnante, Samantha Conte, Antonella
 **Stefania Milan (Professor of Critical Data Studies at the University of Amsterdam)**
 
 **4:30 PM - 6:30 PM**
-<br>**Session 3 – Awareness (Aula B)**
+**Session 3 – Awareness (Aula B)**
 -	Martin Trans: Datafying groceries: consumers’ willingness to participate in loyalty programs
 -	Luca Giuffrè: Algorithm Literacy at School: teenagers reasoning of algorithm-mediated experiences
 -	Margherita Bordignon, Guido Legnante, Chiara Respi, Marco Gui and Dario Pizzul: The price is right: exploring the economic value of personal data among Italian citizens
@@ -100,9 +100,9 @@ Alessandro Caliandro, Flavio Ceravolo, Guido Legnante, Samantha Conte, Antonella
 -	Isabela Rosal Santos: The regulation of data brokers in Europe: solutions presented by the new regulations
 
 **7:30 PM: Social dinner**
-<br>**"Horti" - Lungo Ticino Sforza, 46, 27100 Pavia**
+**"Horti" - Lungo Ticino Sforza, 46, 27100 Pavia**
 
-<br>**Friday, September 8th**
+**Friday, September 8th**
 
 **9:00 AM - 11:00 AM**
 **Session 5 – Activism (Aula B)**
