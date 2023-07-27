@@ -62,7 +62,8 @@ The fee does not include accommodation. Anyway, for those interested the Departm
 Alessandro Caliandro, Flavio Ceravolo, Guido Legnante, Samantha Conte, Antonella Orologiaio, Susanna Sassi (Università di Pavia), Emma Garavaglia (Politecnico di Milano), Alessandra Gaia (Università degli Studi di Milano-Bicocca), Dario Pizzul (Università Cattolica del Sacro Cuore).
 
 #### Conference programme
-<br>**The Thursday, September 7th**
+<br>
+**The Thursday, September 7th**
 - 10:30 AM: Registration opens
 - 11:00 AM - 12:00 PM: Welcome and openings
 - 12:00 PM - 1:00 PM: Light Lunch
