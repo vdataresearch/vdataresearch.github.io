@@ -68,7 +68,7 @@ Alessandro Caliandro, Flavio Ceravolo, Guido Legnante, Samantha Conte, Antonella
 - 12:00 PM - 1:00 PM: Light Lunch
 
 **1:00 PM - 3:00 PM**
-<br>**Session 1 - Resistance & Countersurveillance (Aula B)**
+**Session 1 - Resistance & Countersurveillance (Aula B)**
 - Lucio Pereira Mello: Battle for platform regulation in Brazil: mapping data as political strategy
 -	Renée Ridgway: 1n(tr0)verted Data: how ‘geofence warrants’ engender Sensorvault subjects
 -	John Boy: Practical Rejections of Surveillance Capitalist Platforms and Their Directions
@@ -83,7 +83,7 @@ Alessandro Caliandro, Flavio Ceravolo, Guido Legnante, Samantha Conte, Antonella
 **3:00 PM - 3:30 PM: Break**
 
 **3:30 PM - 4:30 PM: Keynote Speech (Aula Grande)**
-<br>**Stefania Milan (Professor of Critical Data Studies at the University of Amsterdam)**
+**Stefania Milan (Professor of Critical Data Studies at the University of Amsterdam)**
 
 **4:30 PM - 6:30 PM**
 <br>**Session 3 – Awareness (Aula B)**
@@ -104,7 +104,7 @@ Alessandro Caliandro, Flavio Ceravolo, Guido Legnante, Samantha Conte, Antonella
 <br>**Friday, September 8th**
 
 **9:00 AM - 11:00 AM**
-<br>**Session 5 – Activism (Aula B)**
+**Session 5 – Activism (Aula B)**
 -	Alice di Leva, Emma Garavaglia and Annavittoria Sarli: Social injustice in surveillance capitalism: reflections on the Italian context
 -	Annika Richterich: Who values Data Minimalism? On Solidarity in Feminist Data Activism
 -	Michele Veneziano: Monitoring public administrations to fight surveillance capitalism: Practices and imaginaries of an Italian tech watchdog
@@ -118,7 +118,7 @@ Alessandro Caliandro, Flavio Ceravolo, Guido Legnante, Samantha Conte, Antonella
 **11:00 AM - 11:30 AM: Coffee break**
 
 **11:30 AM - 1:00 PM**
-<br>**Session 7 – Work and cultural production (Aula B)**
+**Session 7 – Work and cultural production (Aula B)**
 -	Alessandro Gandini, Marianna d’Ovidio and Ilir Rama: Community, cultural production and the pandemic
 -	Josephine West: Sex, Power and Surveillance Capitalism in the Multi-Billion Dollar Camming Sector
 -	Emma Garavaglia, Annavittoria Sarli and Francesco Diodati: Carework platforms in Italy: a qualitative research
