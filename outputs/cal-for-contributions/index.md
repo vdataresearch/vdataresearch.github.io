@@ -63,7 +63,7 @@ Alessandro Caliandro, Flavio Ceravolo, Guido Legnante, Samantha Conte, Antonella
 
 #### Conference programme
 **The Thursday, September 7th**
-10:30 AM: Registration opens
+<br>10:30 AM: Registration opens
 11:00 AM - 12:00 PM: Welcome and openings
 12:00 PM - 1:00 PM: Light Lunch
 
