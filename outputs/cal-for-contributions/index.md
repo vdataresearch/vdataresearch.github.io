@@ -68,6 +68,7 @@ Alessandro Caliandro, Flavio Ceravolo, Guido Legnante, Samantha Conte, Antonella
 - 12:00 PM - 1:00 PM: Light Lunch
 
 **1:00 PM - 3:00 PM**
+
 **Session 1 - Resistance & Countersurveillance (Aula B)**
 - Lucio Pereira Mello: Battle for platform regulation in Brazil: mapping data as political strategy
 -	Renée Ridgway: 1n(tr0)verted Data: how ‘geofence warrants’ engender Sensorvault subjects
