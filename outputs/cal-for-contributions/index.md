@@ -62,13 +62,13 @@ The fee does not include accommodation. Anyway, for those interested the Departm
 Alessandro Caliandro, Flavio Ceravolo, Guido Legnante, Samantha Conte, Antonella Orologiaio, Susanna Sassi (Università di Pavia), Emma Garavaglia (Politecnico di Milano), Alessandra Gaia (Università degli Studi di Milano-Bicocca), Dario Pizzul (Università Cattolica del Sacro Cuore).
 
 #### Conference programme
-**The Thursday, September 7th**
-<br>10:30 AM: Registration opens
-11:00 AM - 12:00 PM: Welcome and openings
-12:00 PM - 1:00 PM: Light Lunch
+<br>**The Thursday, September 7th**
+- 10:30 AM: Registration opens
+- 11:00 AM - 12:00 PM: Welcome and openings
+- 12:00 PM - 1:00 PM: Light Lunch
 
-1:00 PM - 3:00 PM
-**Session 1 - Resistance & Countersurveillance (Aula B)**
+**1:00 PM - 3:00 PM**
+<br>**Session 1 - Resistance & Countersurveillance (Aula B)**
 - Lucio Pereira Mello: Battle for platform regulation in Brazil: mapping data as political strategy
 -	Renée Ridgway: 1n(tr0)verted Data: how ‘geofence warrants’ engender Sensorvault subjects
 -	John Boy: Practical Rejections of Surveillance Capitalist Platforms and Their Directions
@@ -80,13 +80,13 @@ Alessandro Caliandro, Flavio Ceravolo, Guido Legnante, Samantha Conte, Antonella
 -	Dario Pizzul and Alessandro Caliandro: A systematic literature review of surveillance capitalism towards an empirical research agenda
 -	Guido Anselmi: Yet another round of disruption: the imaginary of LLMs in social and legacy media
 
-3:00 PM - 3:30 PM: Break
+**3:00 PM - 3:30 PM: Break**
 
 **3:30 PM - 4:30 PM: Keynote Speech (Aula Grande)**
-Stefania Milan (Professor of Critical Data Studies at the University of Amsterdam)
+<br>**Stefania Milan (Professor of Critical Data Studies at the University of Amsterdam)**
 
-4:30 PM - 6:30 PM
-**Session 3 – Awareness (Aula B)**
+**4:30 PM - 6:30 PM**
+<br>**Session 3 – Awareness (Aula B)**
 -	Martin Trans: Datafying groceries: consumers’ willingness to participate in loyalty programs
 -	Luca Giuffrè: Algorithm Literacy at School: teenagers reasoning of algorithm-mediated experiences
 -	Margherita Bordignon, Guido Legnante, Chiara Respi, Marco Gui and Dario Pizzul: The price is right: exploring the economic value of personal data among Italian citizens
@@ -99,12 +99,12 @@ Stefania Milan (Professor of Critical Data Studies at the University of Amsterda
 -	Isabela Rosal Santos: The regulation of data brokers in Europe: solutions presented by the new regulations
 
 **7:30 PM: Social dinner**
-"Horti" - Lungo Ticino Sforza, 46, 27100 Pavia
+<br>**"Horti" - Lungo Ticino Sforza, 46, 27100 Pavia**
 
-**Friday, September 8th**
+<br>**Friday, September 8th**
 
-9:00 AM - 11:00 AM
-**Session 5 – Activism (Aula B)**
+**9:00 AM - 11:00 AM**
+<br>**Session 5 – Activism (Aula B)**
 -	Alice di Leva, Emma Garavaglia and Annavittoria Sarli: Social injustice in surveillance capitalism: reflections on the Italian context
 -	Annika Richterich: Who values Data Minimalism? On Solidarity in Feminist Data Activism
 -	Michele Veneziano: Monitoring public administrations to fight surveillance capitalism: Practices and imaginaries of an Italian tech watchdog
@@ -115,10 +115,10 @@ Stefania Milan (Professor of Critical Data Studies at the University of Amsterda
 -	Natalia Stanusch: Memeing Algorithmic Imaginaries: How Users Fight against and Comply with Recommendation Algorithms Using Data
 -	Davide Beraldo: Algorithms as Cultural Objects: mapping algorithmic imaginaries on Twitter
 
-11:00 AM - 11:30 AM: Coffee break
+**11:00 AM - 11:30 AM: Coffee break**
 
-11:30 AM - 1:00 PM
-**Session 7 – Work and cultural production (Aula B)**
+**11:30 AM - 1:00 PM**
+<br>**Session 7 – Work and cultural production (Aula B)**
 -	Alessandro Gandini, Marianna d’Ovidio and Ilir Rama: Community, cultural production and the pandemic
 -	Josephine West: Sex, Power and Surveillance Capitalism in the Multi-Billion Dollar Camming Sector
 -	Emma Garavaglia, Annavittoria Sarli and Francesco Diodati: Carework platforms in Italy: a qualitative research
@@ -126,4 +126,4 @@ Stefania Milan (Professor of Critical Data Studies at the University of Amsterda
 **Session 8 - Family & parenting (Aula Grande)**
 -	Julie Dereymaeker, Tom De Leyn and Ralf De Wolf: Datafied families and parental surveillance by default? Exploring parental care and surveillance in the construction of smart home technology
 -	Ribak Rivka and Gal Shayovitz: Surveillance Capitalism In Embryo
--	Mathias Klang: Parental Panopticons and Everyday Resistance: Domestic Surveillance and young adults
+-	Mathias Klang: <Parental Panopticons and Everyday Resistance: Domestic Surveillance and young adults>
