@@ -96,7 +96,7 @@ Alessandro Caliandro, Flavio Ceravolo, Guido Legnante, Samantha Conte, Antonella
 
 **Session 4 - Geographical contexts (Aula Grande)**
 -	Salvatore Romano, Davide Beraldo and Ilir Rama: The Impact of TikTok Policies on Information Flows during Times of War: Evidence of ‘Splinternet’ and ‘Shadow-Promotion’ in Russia
--	Susanna Sassi: How media and journalism represent surveillance capitalism in Italy
+-	Susanna Sassi, Guido Legnante: How media and journalism represent surveillance capitalism in Italy
 -	Claudio Bellinzona: The future of smart cities in the context of surveillance capitalism. The case of Dubai
 -	Isabela Rosal Santos: The regulation of data brokers in Europe: solutions presented by the new regulations
 
