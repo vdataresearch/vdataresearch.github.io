@@ -90,9 +90,9 @@ Alessandro Caliandro, Flavio Ceravolo, Guido Legnante, Samantha Conte, Antonella
 
 **Session 3 – Awareness (Aula B)**
 -	Martin Trans: Datafying groceries: consumers’ willingness to participate in loyalty programs
--	Luca Giuffrè: Algorithm Literacy at School: teenagers reasoning of algorithm-mediated experiences
 -	Margherita Bordignon, Guido Legnante, Chiara Respi, Marco Gui and Dario Pizzul: The price is right: exploring the economic value of personal data among Italian citizens
 -	Riccardo Pronzato: The reproduction of hegemony in youth’s everyday platform engagements
+- Chiara Respi, Marco Gui, Guido Legnante, Dario Pizzul, Tiziano Gerosa, Gaetano Scaduto and Miriam Serini: Privacy protection as an exception in the digital inequality framework (and why this is not good news)
 
 **Session 4 - Geographical contexts (Aula Grande)**
 -	Salvatore Romano, Davide Beraldo and Ilir Rama: The Impact of TikTok Policies on Information Flows during Times of War: Evidence of ‘Splinternet’ and ‘Shadow-Promotion’ in Russia
@@ -117,6 +117,7 @@ Alessandro Caliandro, Flavio Ceravolo, Guido Legnante, Samantha Conte, Antonella
 -	Massimo Airoldi and Tiziano Bonini: Capturing habitus: how algorithms extract value from platformized culture
 -	Natalia Stanusch: Memeing Algorithmic Imaginaries: How Users Fight against and Comply with Recommendation Algorithms Using Data
 -	Davide Beraldo: Algorithms as Cultural Objects: mapping algorithmic imaginaries on Twitter
+- Luca Giuffrè: Algorithm Literacy at School: teenagers reasoning of algorithm-mediated experiences
 
 **11:00 AM - 11:30 AM: Coffee break**
 
