@@ -119,7 +119,7 @@ Alessandro Caliandro, Flavio Ceravolo, Guido Legnante, Samantha Conte, Antonella
 **Session 7 – Algorithms (Aula Grande)**
 -	Massimo Airoldi and Tiziano Bonini: Capturing habitus: how algorithms extract value from platformized culture
 -	Natalia Stanusch: Memeing Algorithmic Imaginaries: How Users Fight against and Comply with Recommendation Algorithms Using Data
--	Davide Beraldo: Algorithms as Cultural Objects: mapping algorithmic imaginaries on Twitter
+-	Davide Beraldo, Massimo Airoldi, Sander van Haperen and Stefania Milan: Algorithms as Cultural Objects: mapping algorithmic imaginaries on Twitter
 - Luca Giuffrè: Algorithm Literacy at School: teenagers reasoning of algorithm-mediated experiences
 
 **11:00 AM - 11:30 AM: Coffee break**
