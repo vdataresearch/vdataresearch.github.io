@@ -1,5 +1,5 @@
 ---
-title: "V-Data final conference - call for contributions"
+title: "V-Data final conference"
 type: document
 wp: []
 ---
