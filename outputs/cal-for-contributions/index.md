@@ -73,17 +73,14 @@ Alessandro Caliandro, Flavio Ceravolo, Guido Legnante, Samantha Conte, Antonella
 - Lucio Pereira Mello: Battle for platform regulation in Brazil: mapping data as political strategy
 -	John Boy: Practical Rejections of Surveillance Capitalist Platforms and Their Directions
 -	Matteo Adamoli and Tiziana Piccioni: Practices of resistance in digital third spaces: critical aspects of the platformisation during the pandemic in high education
+- Milana Pisarić: Digital Surveillance State vs. Digital Privacy Rights
 
-**Session 2 – Theory (Aula Grande)**
+**Session 2 – Theory (Aula Grande) - Chair: Alessandro Caliandro**
 - Gianmarco Cristofari: A comparative historical account of value production inside digital platforms
 -	Adam Arvidsson: The Question of the Digital in the Anthropocene
 -	Dario Pizzul and Alessandro Caliandro: A systematic literature review of surveillance capitalism: towards an empirical research agenda
 -	Guido Anselmi: Yet another round of disruption: the imaginary of LLMs in social and legacy media
 
-**Session 3 - Watching the watchers (Aula E)**
-- Renée Ridgway: 1n(tr0)verted Data: how ‘geofence warrants’ engender Sensorvault subjects
-- Michele Veneziano: Monitoring public administrations to fight surveillance capitalism: Practices and imaginaries of an Italian tech watchdog
-- Milana Pisarić: Digital Surveillance State vs. Digital Privacy Rights
 
 **3:00 PM - 3:30 PM: Break**
 
@@ -92,13 +89,13 @@ Alessandro Caliandro, Flavio Ceravolo, Guido Legnante, Samantha Conte, Antonella
 
 **4:30 PM - 6:30 PM**
 
-**Session 4 – Awareness (Aula B)**
+**Session 3 – Awareness (Aula B) - Chair: Marco Gui**
 -	Martin Trans: Datafying groceries: consumers’ willingness to participate in loyalty programs
 -	Margherita Bordignon, Guido Legnante, Chiara Respi, Marco Gui and Dario Pizzul: The price is right: exploring the economic value of personal data among Italian citizens
 -	Riccardo Pronzato: The reproduction of hegemony in youth’s everyday platform engagements
 - Chiara Respi, Marco Gui, Guido Legnante, Dario Pizzul, Tiziano Gerosa, Gaetano Scaduto and Miriam Serini: Privacy protection as an exception in the digital inequality framework (and why this is not good news)
 
-**Session 5 - Geographical contexts (Aula Grande)**
+**Session 4 - Geographical contexts (Aula Grande) - Chair: Guido Legnante**
 -	Salvatore Romano, Davide Beraldo and Ilir Rama: The Impact of TikTok Policies on Information Flows during Times of War: Evidence of ‘Splinternet’ and ‘Shadow-Promotion’ in Russia
 -	Susanna Sassi and Guido Legnante: How media and journalism represent surveillance capitalism in Italy
 -	Claudio Bellinzona: The future of smart cities in the context of surveillance capitalism. The case of Dubai
@@ -111,12 +108,13 @@ Alessandro Caliandro, Flavio Ceravolo, Guido Legnante, Samantha Conte, Antonella
 
 **9:00 AM - 11:00 AM**
 
-**Session 6 – Activism (Aula B)**
+**Session 5 – Activism (Aula B) - Chair: Alessandro Caliandro**
 -	Alice di Leva, Emma Garavaglia and Annavittoria Sarli: Social injustice in surveillance capitalism: reflections on the Italian context
 -	Annika Richterich: Who values Data Minimalism? On Solidarity in Feminist Data Activism
 -	Peter Mechant, Sander Van Damme, Marteen de Mildt, Steven Dewaele, and Laurens Vandercruysse: Personal Data Stores and data cooperatives: a two-pronged, sociotechnical approach for data activism
+- Michele Veneziano: Monitoring public administrations to fight surveillance capitalism: Practices and imaginaries of an Italian tech watchdog
 
-**Session 7 – Algorithms (Aula Grande)**
+**Session 6 – Algorithms (Aula Grande) - Chair: Dario Pizzul**
 -	Massimo Airoldi and Tiziano Bonini: Capturing habitus: how algorithms extract value from platformized culture
 -	Natalia Stanusch: Memeing Algorithmic Imaginaries: How Users Fight against and Comply with Recommendation Algorithms Using Data
 -	Davide Beraldo, Massimo Airoldi, Sander van Haperen and Stefania Milan: Algorithms as Cultural Objects: mapping algorithmic imaginaries on Twitter
@@ -126,12 +124,12 @@ Alessandro Caliandro, Flavio Ceravolo, Guido Legnante, Samantha Conte, Antonella
 
 **11:30 AM - 1:00 PM**
 
-**Session 8 – Work and cultural production (Aula B)**
+**Session 7 – Work and cultural production (Aula B) - Chair: Natalia Stanusch**
 -	Alessandro Gandini, Marianna d’Ovidio and Ilir Rama: Community, cultural production and the pandemic
 -	Josephine West: Sex, Power and Surveillance Capitalism in the Multi-Billion Dollar Camming Sector
 -	Emma Garavaglia, Annavittoria Sarli and Francesco Diodati: Carework platforms in Italy: a qualitative research
 
-**Session 9 - Family & parenting (Aula Grande)**
+**Session 8 - Family & parenting (Aula Grande) - Chair: Alessandro Caliandro**
 -	Julie Dereymaeker, Tom De Leyn and Ralf De Wolf: Datafied families and parental surveillance by default? Exploring parental care and surveillance in the construction of smart home technology
 -	Ribak Rivka and Gal Shayovitz: Surveillance Capitalism In Embryo
 -	Mathias Klang: Parental Panopticons and Everyday Resistance: Domestic Surveillance and young adults
