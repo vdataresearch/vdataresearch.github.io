@@ -63,13 +63,13 @@ Alessandro Caliandro, Flavio Ceravolo, Guido Legnante, Samantha Conte, Antonella
 
 #### Conference programme
 **Thursday, September 7th**
-- 10:30 AM: Registration opens
+- 10:00 AM: Registration opens
 - 11:00 AM - 12:00 PM: Welcome and openings
 - 12:00 PM - 1:00 PM: Light Lunch
 
 **1:00 PM - 3:00 PM**
 
-**Session 1 - Resistance & Countersurveillance (Aula B)**
+**Session 1 - Resistance & Countersurveillance (Aula B) - Chair: Veronica Moretti**
 - Lucio Pereira Mello: Battle for platform regulation in Brazil: mapping data as political strategy
 -	John Boy: Practical Rejections of Surveillance Capitalist Platforms and Their Directions
 -	Matteo Adamoli and Tiziana Piccioni: Practices of resistance in digital third spaces: critical aspects of the platformisation during the pandemic in high education
