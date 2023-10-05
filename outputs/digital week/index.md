@@ -1,5 +1,5 @@
 ---
-title: "Milano Digital Week 2023 - Il capitalismo della sorveglianza"
+title: "Milano Digital Week 2023 - Il capitalismo della sorveglianza: privacy e oltre"
 type: event
 link: https://www.milanodigitalweek.com/il-capitalismo-della-sorveglianza-privacy-e-oltre/
 wp:
