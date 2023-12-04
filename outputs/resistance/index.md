@@ -1,5 +1,5 @@
 ---
-title: "Come resistere (per quanto possibile) al capitalismo della sorveglianza"
+title: "Come resistere, per quanto possibile, al capitalismo della sorveglianza"
 type: document
 wp:
 wp:
