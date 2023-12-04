@@ -1,7 +1,6 @@
 ---
-title: "Come resistere, per quanto possibile, al capitalismo della sorveglianza"
+title: "Come resistere (per quanto possibile) al capitalismo della sorveglianza"
 type: document
-wp:
 wp:
  - the-public-discourse-on-surveillance-capitalism
  - digital-data-and-value-creation-citizens-knowledge-awareness-and-opinions
