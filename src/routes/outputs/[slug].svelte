@@ -50,6 +50,9 @@
 
 	export let post;
 	export let wps;
+
+	let width
+	console.log(page, post, wps)
 </script>
 
 <Head path={$page.url.pathname} title={post.title} />
@@ -80,6 +83,17 @@
 			</div>
 		</div>
 	</div>
+	{#if post.title.toLowerCase() === "visualizing surveillance capitalism through twitter"}
+	<div class="row">
+		<div class="col-12">
+			<div class="w-100" bind:clientWidth={width}>
+				<div class="overflow-hidden" style="height: {width-34}px;">
+					<iframe title="visualizing surveillance capitalism through twitter" width="100%" height={width} frameborder="0"  src="https://observablehq.com/embed/e6dffe8a45059229@latest?cells=radialTreew"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+	{/if}
 </div>
 
 <style>
@@ -97,4 +111,5 @@
 		color: var(--bs-primary);
 		font-weight: bold;
 	}
+
 </style>
