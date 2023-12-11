@@ -45,9 +45,9 @@ Moreover, if technology and technological innovation are often discussed in rela
 
 | Themes                         | Keywords                                                                       |
 |--------------------------------|--------------------------------------------------------------------------------|
-| Lack of awareness and debate   | Public debate Political debate Scientific knowledge Digital literacy Awareness |
-| Homophobia, racism, sexism     | Culture Vulnerable groups Institutions Prevention Protection                   |
-| Traditional technology culture | SMEs Innovation Technological culture Public goods                             |
+| Lack of awareness and debate   | Public debate <br> Political debate <br>Scientific knowledge <br>Digital literacy <br>Awareness |
+| Homophobia, racism, sexism     | Culture <br>Vulnerable groups <br>Institutions <br>Prevention <br>Protection                   |
+| Traditional technology culture | SMEs <br>Innovation <br>Technological culture <br>Public goods                             |
 
 
 <style type="text/css">
