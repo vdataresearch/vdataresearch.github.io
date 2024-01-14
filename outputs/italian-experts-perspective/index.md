@@ -42,3 +42,35 @@ A third question around which participants’ discussions converged regards the 
 
 Moreover, if technology and technological innovation are often discussed in relation to economic growth, the potential of innovation – and specifically of big data – for social good is very rarely debated in public and political contexts: 
 *It’s difficult to have intercommunication and therefore connection between the various databases, which, in my opinion, it is a fundamental thing because on the one hand it is risky, but on the other it is powerful because if we have a public monitoring of the health connections of citizens we can see when circumstances happen. Classic example: Taranto. How many cancers there are, how much pollution? What big companies do: predict what is a trend. The public should do this, talking about territorial health.*
+
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;color:white;width:100%}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-size:14px;color:white!important;
+  overflow:hidden;padding:10px 5px;word-break:normal;width:50%}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-size:14px;color:white!important;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top;color:white!important;}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky"><span style="font-weight:700;font-style:normal;text-decoration:none;color:white;background-color:transparent">Themes</span></th>
+    <th class="tg-0pky"><span style="font-weight:700;font-style:normal;text-decoration:none;color:white;background-color:transparent">Keywords</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:white;background-color:transparent">Lack of awareness and debate</span></td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:white;background-color:transparent">Public debate</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:white;background-color:transparent">Political debate</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:white;background-color:transparent">Scientific knowledge</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:white;background-color:transparent">Digital literacy</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:white;background-color:transparent">Awareness</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:white;background-color:transparent">Homophobia, racism, sexism</span></td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:white;background-color:transparent">Culture</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:white;background-color:transparent">Vulnerable groups</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:white;background-color:transparent">Institutions</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:white;background-color:transparent">Prevention</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:white;background-color:transparent">Protection</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:white;background-color:transparent">Traditional technology culture</span></td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:white;background-color:transparent">SMEs</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:white;background-color:transparent">Innovation</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:white;background-color:transparent">Technological culture</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:white;background-color:transparent">Public goods</span></td>
+  </tr>
+</tbody>
+</table>
